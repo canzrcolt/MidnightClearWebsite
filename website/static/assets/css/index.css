@@ -7,7 +7,8 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: rgb(39, 39, 39);
+    background: linear-gradient(to bottom, rgba(41, 41, 41, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #444444;
+    background-blend-mode: multiply,multiply;
     padding: 0;
     margin: 0px;
     color: white;
